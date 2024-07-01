@@ -67,16 +67,17 @@ public class LoginPageTest {
 			Js.executeScript("window.scrollBy(0,300)"," ");
 			
 			Thread.sleep(5000);
-			//calling add to cart 
 			
+			//calling add to cart 
+		
 			AddToCart Add = new AddToCart(driver);
-			System.out.println("hwllo");
+			System.out.println("Item added to cart");
 			//Add.verifyQuantityBefore();
 			Add.addToCart();
 			
 			//calling checkout page 
 			CheckoutPage ck=new CheckoutPage(driver);
-			
+			System.out.println("checkout");
 			//Update Quantity and refresh the Amount
 			ck.provideQuantity();
 			ck.refreshButton();

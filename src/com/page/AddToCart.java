@@ -11,7 +11,7 @@ public class AddToCart {
 	private WebElement quantityAvailableBeforePurchase; */
 	
 	
-	@FindBy(xpath="(//a[@class='btn btn-success'])[3]")
+	@FindBy(xpath="(//a[@class='btn btn-success'])[4]")
 	
 	
 	private WebElement addCart;

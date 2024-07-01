@@ -7,7 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CheckoutPage {
 
-	@FindBy(xpath="//input[@id='count_2']")
+	//@FindBy(xpath="//input[@id='count_2']")
+	
+	@FindBy(xpath="//input[@class='form-control text-center']")
+	
 	private WebElement quantity;
 	
 	
