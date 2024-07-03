@@ -15,7 +15,7 @@ public class Invalidlogin {
 	
 	public static WebDriver driver;
 	@Test
-	public void LoginTest() throws InterruptedException {
+	public void InvalidLoginTest() throws InterruptedException {
 		System.out.println("Signup");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();

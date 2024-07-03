@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-01T08:27:06 IST" name="Suite" finished-at="2024-07-01T08:27:31 IST" duration-ms="24961">
+  <suite started-at="2024-07-03T10:16:13 IST" name="Default suite" finished-at="2024-07-03T10:16:16 IST" duration-ms="2377">
     <groups>
     </groups>
-    <test started-at="2024-07-01T08:27:06 IST" name="Test" finished-at="2024-07-01T08:27:31 IST" duration-ms="24961">
-      <class name="com.testprograms.LoginPageTest">
-        <test-method signature="LoginTest()[pri:0, instance:com.testprograms.LoginPageTest@6392827e]" started-at="2024-07-01T08:27:06 IST" name="LoginTest" finished-at="2024-07-01T08:27:31 IST" duration-ms="24932" status="PASS">
+    <test started-at="2024-07-03T10:16:13 IST" name="Default test" finished-at="2024-07-03T10:16:16 IST" duration-ms="2377">
+      <class name="com.testprograms.Invalidlogin">
+        <test-method signature="InvalidLoginTest()[pri:0, instance:com.testprograms.Invalidlogin@82de64a]" started-at="2024-07-03T10:16:13 IST" name="InvalidLoginTest" finished-at="2024-07-03T10:16:16 IST" duration-ms="2356" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-      </class> <!-- com.testprograms.LoginPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- InvalidLoginTest -->
+      </class> <!-- com.testprograms.Invalidlogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
